@@ -21,6 +21,10 @@ body {
   height: 100%;
   background-color: var(--deep_blue);
 }
+html h1,
+body h1 {
+  display: none;
+}
 
 main {
   display: flex;
@@ -28,9 +32,6 @@ main {
   align-items: center;
   height: 100%;
   font-family: var(--font_primary);
-}
-main h1 {
-  display: none;
 }
 main .card {
   margin: 50px 20px;

@@ -21,6 +21,9 @@ html,
 body {
   height: 100%;
   background-color: var(--deep_blue);
+  h1{
+    display: none;
+  }
 }
 
 main {
@@ -29,9 +32,6 @@ main {
   align-items: center;
   height: 100%;
   font-family: var(--font_primary);
-  h1{
-    display: none;
-  }
   .card {
     margin: 50px 20px;
     border-radius: 10px;
