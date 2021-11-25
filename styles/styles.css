@@ -144,6 +144,7 @@ main .card_stats small {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
+  font-weight: 700;
   color: var(--white);
   line-height: 24px;
 }
@@ -155,6 +156,7 @@ main .card_stats small {
 main .card_stats small span {
   display: block;
   font-size: 12px;
+  font-weight: normal;
   text-transform: uppercase;
   font-family: var(--font_secondary);
   color: var(--white_lite_b);
